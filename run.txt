@@ -1,0 +1,1 @@
+time python seq2seq_attention.py  --mode=train  --article_key=article --abstract_key=abstract --data_path=amr_seqs/train_binary.txt --vocab_path=data/vocab_dev --log_root=log_root --train_dir=log_root/train
